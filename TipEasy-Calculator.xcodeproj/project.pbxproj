@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B02613EC29B43E3B003A2A0C /* TipEasy Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TipEasy Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02613EC29B43E3B003A2A0C /* TipEasy-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TipEasy-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02613EF29B43E3B003A2A0C /* TipEasyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipEasyApp.swift; sourceTree = "<group>"; };
 		B02613F129B43E3B003A2A0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B02613F329B43E3D003A2A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		B02613ED29B43E3B003A2A0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B02613EC29B43E3B003A2A0C /* TipEasy Calculator.app */,
+				B02613EC29B43E3B003A2A0C /* TipEasy-Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B02613EB29B43E3B003A2A0C /* TipEasy Calculator */ = {
+		B02613EB29B43E3B003A2A0C /* TipEasy-Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B02613FA29B43E3D003A2A0C /* Build configuration list for PBXNativeTarget "TipEasy Calculator" */;
+			buildConfigurationList = B02613FA29B43E3D003A2A0C /* Build configuration list for PBXNativeTarget "TipEasy-Calculator" */;
 			buildPhases = (
 				B02613E829B43E3B003A2A0C /* Sources */,
 				B02613E929B43E3B003A2A0C /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "TipEasy Calculator";
+			name = "TipEasy-Calculator";
 			productName = TipEasy;
-			productReference = B02613EC29B43E3B003A2A0C /* TipEasy Calculator.app */;
+			productReference = B02613EC29B43E3B003A2A0C /* TipEasy-Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B02613E729B43E3B003A2A0C /* Build configuration list for PBXProject "TipEasy Calculator" */;
+			buildConfigurationList = B02613E729B43E3B003A2A0C /* Build configuration list for PBXProject "TipEasy-Calculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B02613EB29B43E3B003A2A0C /* TipEasy Calculator */,
+				B02613EB29B43E3B003A2A0C /* TipEasy-Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -265,7 +265,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TipEasy/Preview Content\"";
 				DEVELOPMENT_TEAM = E9Y3V7QQ73;
 				ENABLE_PREVIEWS = YES;
@@ -275,13 +274,13 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.liuli.TipEasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -296,7 +295,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TipEasy/Preview Content\"";
 				DEVELOPMENT_TEAM = E9Y3V7QQ73;
 				ENABLE_PREVIEWS = YES;
@@ -306,13 +304,13 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.liuli.TipEasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -324,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B02613E729B43E3B003A2A0C /* Build configuration list for PBXProject "TipEasy Calculator" */ = {
+		B02613E729B43E3B003A2A0C /* Build configuration list for PBXProject "TipEasy-Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02613F829B43E3D003A2A0C /* Debug */,
@@ -333,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B02613FA29B43E3D003A2A0C /* Build configuration list for PBXNativeTarget "TipEasy Calculator" */ = {
+		B02613FA29B43E3D003A2A0C /* Build configuration list for PBXNativeTarget "TipEasy-Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02613FB29B43E3D003A2A0C /* Debug */,
