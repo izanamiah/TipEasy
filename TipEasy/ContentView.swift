@@ -53,6 +53,7 @@ struct ContentView: View {
                     Toggle("Tip on Pre-Tax", isOn: $isPreTax)
                         .onChange(of: isPreTax){ value in
                             if !value {
+                                preTaxAmount = 0.0
                                 tempPreTaxAmount = nil
                             }
                         }
@@ -179,8 +180,6 @@ struct ContentView: View {
                                    .background(.gray)
                                    .clipShape(RoundedRectangle(cornerRadius: 4, style: .continuous))
                         }
-                      
-                        
                     }
                     
                    
@@ -198,16 +197,11 @@ struct ContentView: View {
                 ToolbarItemGroup(placement: .keyboard){
                     Spacer()
                     Button("Confirm"){
-                        if postTaxAmountIsFocused {
                             postTaxAmount = tempPostTaxAmount ?? 0.0
-                            postTaxAmountIsFocused = false
-                        } else if preTaxAmountIsFocused {
                             preTaxAmount = tempPreTaxAmount ?? 0.0
+                            postTaxAmountIsFocused = false
                             preTaxAmountIsFocused = false
-                        } else if tipPercentageIsFocused {
                             tipPercentageIsFocused = false
-                        }
-    
                     }
                 }
             }

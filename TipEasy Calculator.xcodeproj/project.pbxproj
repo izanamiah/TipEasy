@@ -11,16 +11,14 @@
 		B02613F229B43E3B003A2A0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02613F129B43E3B003A2A0C /* ContentView.swift */; };
 		B02613F429B43E3D003A2A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02613F329B43E3D003A2A0C /* Assets.xcassets */; };
 		B02613F729B43E3D003A2A0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02613F629B43E3D003A2A0C /* Preview Assets.xcassets */; };
-		B028CD4D29B9648D004A15B8 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028CD4C29B9648D004A15B8 /* BarChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B02613EC29B43E3B003A2A0C /* TipEasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipEasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02613EC29B43E3B003A2A0C /* TipEasy Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TipEasy Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02613EF29B43E3B003A2A0C /* TipEasyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipEasyApp.swift; sourceTree = "<group>"; };
 		B02613F129B43E3B003A2A0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B02613F329B43E3D003A2A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B02613F629B43E3D003A2A0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B028CD4C29B9648D004A15B8 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +43,7 @@
 		B02613ED29B43E3B003A2A0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B02613EC29B43E3B003A2A0C /* TipEasy.app */,
+				B02613EC29B43E3B003A2A0C /* TipEasy Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,7 +53,6 @@
 			children = (
 				B02613EF29B43E3B003A2A0C /* TipEasyApp.swift */,
 				B02613F129B43E3B003A2A0C /* ContentView.swift */,
-				B028CD4C29B9648D004A15B8 /* BarChartView.swift */,
 				B02613F329B43E3D003A2A0C /* Assets.xcassets */,
 				B02613F529B43E3D003A2A0C /* Preview Content */,
 			);
@@ -73,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B02613EB29B43E3B003A2A0C /* TipEasy */ = {
+		B02613EB29B43E3B003A2A0C /* TipEasy Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B02613FA29B43E3D003A2A0C /* Build configuration list for PBXNativeTarget "TipEasy" */;
+			buildConfigurationList = B02613FA29B43E3D003A2A0C /* Build configuration list for PBXNativeTarget "TipEasy Calculator" */;
 			buildPhases = (
 				B02613E829B43E3B003A2A0C /* Sources */,
 				B02613E929B43E3B003A2A0C /* Frameworks */,
@@ -85,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = TipEasy;
+			name = "TipEasy Calculator";
 			productName = TipEasy;
-			productReference = B02613EC29B43E3B003A2A0C /* TipEasy.app */;
+			productReference = B02613EC29B43E3B003A2A0C /* TipEasy Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B02613E729B43E3B003A2A0C /* Build configuration list for PBXProject "TipEasy" */;
+			buildConfigurationList = B02613E729B43E3B003A2A0C /* Build configuration list for PBXProject "TipEasy Calculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B02613EB29B43E3B003A2A0C /* TipEasy */,
+				B02613EB29B43E3B003A2A0C /* TipEasy Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +139,6 @@
 			files = (
 				B02613F229B43E3B003A2A0C /* ContentView.swift in Sources */,
 				B02613F029B43E3B003A2A0C /* TipEasyApp.swift in Sources */,
-				B028CD4D29B9648D004A15B8 /* BarChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +270,13 @@
 				DEVELOPMENT_TEAM = E9Y3V7QQ73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TipEasy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,11 +301,13 @@
 				DEVELOPMENT_TEAM = E9Y3V7QQ73;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TipEasy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B02613E729B43E3B003A2A0C /* Build configuration list for PBXProject "TipEasy" */ = {
+		B02613E729B43E3B003A2A0C /* Build configuration list for PBXProject "TipEasy Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02613F829B43E3D003A2A0C /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B02613FA29B43E3D003A2A0C /* Build configuration list for PBXNativeTarget "TipEasy" */ = {
+		B02613FA29B43E3D003A2A0C /* Build configuration list for PBXNativeTarget "TipEasy Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B02613FB29B43E3D003A2A0C /* Debug */,
