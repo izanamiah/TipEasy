@@ -92,6 +92,7 @@ struct ContentView: View {
                     
                     if preTaxAmount > postTaxAmount {
                         Text("Note: You are inputing a pre-tax amount that is greater than or equal to post-tax amout. Please check both numbers and input them correctly.")
+                            .foregroundColor(.red)
 //                            .font(.system(size: 13.0, weight: .semibold))
                     }
                 }
